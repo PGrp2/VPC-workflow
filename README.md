@@ -1,1 +1,1 @@
-This is VPC repo
+This is VPC repository
