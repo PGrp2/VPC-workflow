@@ -29,7 +29,7 @@ resource "aws_internet_gateway" "igw" {
 
 #3 Create EIP for NAT Gateway
 resource "aws_eip" "nat" {
-  # vpc   = true
+  vpc   = true
   #count = length(var.public_cidr)
 
   tags = {
