@@ -1,5 +1,5 @@
-module "iam_role" {
-  source = "git::https://github.com/Sylvester-agbo/Iam_roles.git"
+module "iam-role" {
+  source = . /iam-role
 }
 # Define the external data source
 data "external" "vpc_name" {
